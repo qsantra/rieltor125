@@ -1,0 +1,21 @@
+[17-Oct-2019 10:31:58 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:31:58 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:31:58 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:31:58 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:31:58 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:31:58 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:31:58 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:31:58 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[17-Oct-2019 10:32:06 Europe/Moscow] PHP Warning:  chmod(): Operation not permitted in /var/www/admin/data/www/rieltor125.ru/admin/install.php on line 44
+[21-Nov-2019 17:33:04 Asia/Vladivostok] Карта сайта создана, но произошла ошибка с пингом одного или более поисковиков
+[21-Nov-2019 17:38:26 Asia/Vladivostok] Карта сайта создана, но произошла ошибка с пингом одного или более поисковиков

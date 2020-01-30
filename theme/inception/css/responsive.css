@@ -1,0 +1,264 @@
+/*** Author: Oleg Svetlov http://getsimplecms.ru/ ***/
+body{
+	font-size : 13px;
+	line-height : 20px;
+}
+#navigation select {
+    display: none;
+    width: 100%;
+    border : none;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1599px)  {
+
+body{
+	font-size:14px;
+	line-height : 22px;
+}
+}
+
+@media only screen and (max-width: 1279px) {
+
+body{
+	font-size:13px;
+	line-height : 20px;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+#navigation ul li {
+	height : 86px;
+}
+#navigation ul li a { 
+	font-size : 13px;
+	line-height : 88px;
+	padding : 0px 12px;
+}
+.logo {
+	margin : 20px 0px;
+}
+.article {
+	padding-right : 15px;
+}
+p img {
+	margin-bottom : 10px;
+}
+}
+
+@media only screen and (max-width: 959px) {
+
+body{
+	font-size:12px;
+	line-height : 18px;
+}
+.button.medium {
+	padding:10px 16px!important;
+	margin-right:8px;
+	font-size : 14px!important;
+}
+#top-social span i {
+	font-size : 14px;
+	margin-right : 2px;
+}
+#top-social span {
+	margin-right : 5px;
+	font-size : 11px;
+}
+.logo {
+	margin : 15px 0px;
+}
+.logo a {
+	font : bold 38px/38px Arial, Helvetica, sans-serif;
+}
+#navigation ul li {
+	height : 68px;
+}
+#navigation ul li a { 
+	font-size : 12px;
+	line-height : 70px;
+	padding : 0px 5px;
+}
+.article {
+	padding-right : 10px;
+}
+p img {
+	margin-bottom : 5px;
+}
+#page-title {
+	margin-bottom : 35px;
+	padding : 15px 0px 20px;
+}
+#page-title h1 {
+	font-size : 38px;
+	line-height : 40px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+
+
+#navigation {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width : 98%;
+	left : 1%;
+	background-color : transparent;
+	margin-bottom : 10px;
+}
+#navigation select {
+	display: block;
+    background-color : #4B4C4D;
+    color : #D7D7D7;
+    font-size: 13px;
+    padding: .5em;
+    padding-right: 2.5em;	
+    border: 0;
+    margin: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: button;
+    width : 100%;
+}
+#navigation::before,
+#navigation::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+}
+#navigation::after {
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+    margin-top: -.5em;
+}
+#navigation::before {
+    width: 2em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 3px 3px 0;
+}
+#navigation::before {
+    background-color: #272727;
+}
+#navigation::after {
+    color: White;
+}
+#navigation ul {
+    display: none;
+}
+.button.medium {
+	padding:5px 8px!important;
+	margin-right:4px!important;
+	font-size : 12px!important;
+}
+#header [class*="col-"] {
+	margin : 5px 0;
+	text-align : center!important;
+}
+#header .text-right {
+	text-align : center!important;
+}
+#top-social {
+	padding : 10px 0px;
+}
+#top-social i {
+	font-size : 14px;
+}
+#top-social a {
+	margin : 0 3px;
+}
+#top-social span {
+	margin-right : 0px;
+}
+.logo {
+	margin : 10px 0px;
+}
+.article {
+	padding-right : 0px;
+}
+p img {
+	max-width : 40%!important;
+}
+img.fl-right {
+	max-width : 40%!important;
+}
+#footer [class*="col-"]+[class*="col-"] {
+	margin-top:30px;
+}
+#copy [class*="col-"] {
+	margin-bottom:20px;
+}
+#copy [class*="col-"] {
+	text-align : center;
+}
+#cms {
+	right : auto;
+	margin-left : auto;
+	margin-right : auto;
+	display : block;
+	top : auto;
+}
+#copy img {
+	margin :0;
+	top : auto;
+	margin-left : auto;
+	margin-right : auto;
+	display : block;
+	margin-bottom : 20px;
+}
+#page-title {
+	margin-bottom : 20px;
+	padding : 10px 0px 15px;
+}
+#page-title h1 {
+	font-size : 28px;
+	line-height : 30px;
+}
+}	
+
+@media only screen and (max-width: 479px) {
+
+#top-social span {
+	display : block;
+	margin-bottom : 5px;
+}
+img {
+	margin : 0 auto 20px!important;
+	display : block;
+}
+p img {
+	width : 100%!important;
+	float : none!important;
+}
+img.fl-right {
+	max-width : 100%!important;
+	float : none;
+}
+#page-title {
+	margin-bottom : 15px;
+	padding : 10px 0px 15px;
+}
+#page-title h1 {
+	font-size : 22px;
+	line-height : 24px;
+}
+.captcha a {
+	position : relative;
+	top : auto;
+	left : auto;
+	margin-bottom : 15px;
+	display : block;
+	max-width : 100px;
+	text-align : center;
+}
+}

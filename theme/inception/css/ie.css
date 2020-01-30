@@ -1,0 +1,64 @@
+@import url("fontello-ie7.css");
+.ie7 #navigation ul li { 
+	display: inline;
+}
+.ie7 .slider .bg {
+	overflow : hidden;
+}
+.ie7 .slider img {
+	bottom : 0px;
+	height : 440px!important;
+}
+.ie7 .slider .search-results li h2 { 
+	left:0; 
+	top:20%; 
+	opacity:1; 
+	z-index:50;
+}
+.ie7 .links {
+	height : 40px!important;
+}
+.ie7 .slider .button {
+	padding : 10px 15px!important;
+	display : block!important;
+	float : left;
+}
+.ie7 .slider .search-results li h2 { 
+	left:0px; 
+	bottom:40%; 
+	opacity:1; 
+	z-index:50;
+	margin-left : 100px;
+}
+.ie7 .slider .search-results li p { 
+	left:0px; 
+	bottom:40%; 
+	opacity:1; 
+	z-index:50;
+	margin-left : 100px;
+}
+.ie7 .slider .search-results li .links { 
+	left:0px; 
+	bottom:20%; 
+	opacity:1; 
+	z-index:50;
+	margin-left : 100px;
+}
+.ie7 .search-results .text-right {
+	padding-bottom : 15px;
+}
+.ie7 .slider .search-results li .item { 
+	right:0%; 
+	opacity:1; 
+	z-index:10;
+	top : 12%;
+}
+.ie7 .flex-control-nav, .ie7 .flex-direction-nav {
+	display : none;
+}
+.ie7 .circle {
+	display : none;
+}
+.ie7 i.fa {
+	display : none;
+}

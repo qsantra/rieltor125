@@ -1,0 +1,223 @@
+.slider {
+	overflow:hidden;
+	margin-bottom : 40px;
+}
+.slider ul {
+	margin : 0;
+	padding : 0;
+	list-style-type : none;
+	overflow : hidden;
+}
+.slider .contain { 
+	position: relative; 
+	width: 1100px; 
+	margin: 0 auto; 
+	padding: 0; 
+}
+.slider .search-results li .contain, .slider .loading {
+	position:relative;
+	min-height:478px;
+}
+.slider .search-results li h2, .slider .search-results li p, .slider .search-results li .links {
+	max-width:520px;
+	min-width:520px;
+}
+.slider .search-results li h2, .slider .search-results li p, .slider .search-results li .links, .slider .search-results li .item {
+	position:absolute;
+}
+.slider .loading {
+	background: #4b4c4d url(../images/icons/loading.gif) no-repeat center center;
+}
+.slider .button.medium {
+	padding:17px 30px;
+	margin-right:12px;
+	font-size : 18px;
+}
+.slider .flex-direction-nav li a {
+	background:#fff;
+}
+.slider .search-results li .links a:hover {
+	color:#fff;
+}
+.flex-container a:active,.flexslider a:active,.flex-container a:focus,.flexslider a:focus{
+	outline:none;
+}
+.slider .search-results {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.flexslider {
+	margin:0;
+	padding:0;
+}
+.flexslider .search-results img {
+	max-width:100%;
+	display:block;
+}
+.flexslider .search-results:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
+html[xmlns] .search-results {
+	display:block;
+}
+* html .flexslider .search-results {
+	height:1%;
+}
+.slider .search-results>li {
+	display:block;
+}
+.slider .search-results li h2 { 
+	left:0; 
+	top:20%; 
+	opacity:1; 
+	z-index:50;
+	color : White;
+	font-size: 27px;
+	color:#fff;
+	line-height : 36px;
+	font-weight : bold;
+}
+.search-results li p { 
+	left:0; 
+	bottom:40%; 
+	opacity:1; 
+	z-index:50;
+	color:#fff;
+	line-height:30px;
+	font-size : 18px;
+}
+.slider .search-results li .links { 
+	left:0; 
+	bottom:20%; 
+	opacity:1; 
+	z-index:50;
+}
+.slider .search-results li .item { 
+	right:0%; 
+	opacity:1; 
+	z-index:10;
+	top : 12%;
+}
+.flexslider {
+	position:relative;
+	zoom:1;
+}
+.flexslider .search-results {
+	zoom:1;
+}
+.flexslider .search-results>li {
+	position:relative;
+}
+.slider .flex-container{
+	zoom:1;
+	position:relative;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+.contain {
+	max-width : 880px;
+}
+.slider .search-results li h2, .slider .search-results li p, .slider .search-results li .links {
+	max-width:480px;
+	min-width:480px;
+}
+.slider .search-results li p { 
+	line-height:28px;
+	font-size : 16px;
+}
+}
+
+@media only screen and (max-width: 959px) {
+
+.slider .search-results li p {
+	font-size : 14px!important;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.slider .contain {
+	width: 680px; 
+}
+.slider .search-results li .item {
+	max-width:45%;
+}
+.slider .search-results li .contain, .slider .loading {
+	min-height: 395px;
+}
+.slider .search-results li h2, .slider .search-results li p, .slider .search-results li .links {
+	max-width: 380px;
+	min-width: 380px;
+}
+.slider .search-results li h2 {
+	font-size: 22px;
+	line-height: 32px;
+}
+ .slider .search-results li p {
+	font-size: 16px;
+	line-height : 20px;
+}
+}
+@media only screen and (max-width: 767px) {
+	
+.slider .contain {
+	width: 220px; 
+}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.slider .contain {
+	width: 400px;
+}
+.slider .search-results li .item {
+	max-width:45%;
+}
+.slider .search-results li .contain, .slider .loading {
+	min-height: 200px;
+}
+.slider .search-results li h2, .slider .search-results li p, .slider .search-results li .links {
+	max-width: 220px;
+	min-width: 220px;
+}
+.slider .search-results li h2 {
+	font-size: 16px;
+	line-height: 24px;
+}
+.slider .search-results li p {
+	display:none;
+}
+}
+
+@media only screen and (max-width: 479px) {
+
+.flex-direction-nav li a {
+	top: 37%;
+	padding: 0px 5px;
+}
+.slider .search-results li .item {
+	max-width:45%;
+}
+.slider .search-results li .contain, .slider .loading {
+	min-height: 115px;
+}
+.slider .search-results li h2, .slider .search-results li p, .slider .search-results li .links {
+	max-width: 120px;
+	min-width: 120px;
+}
+.slider .search-results li h2 {
+	font-size: 12px;
+    line-height: 16px;
+}
+.slider .search-results li p, .slider .search-results li .links {
+	display:none;
+}
+}

@@ -1,0 +1,4 @@
+<Files captcha.php>
+order allow,deny
+allow from all
+</Files>

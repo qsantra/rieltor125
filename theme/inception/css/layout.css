@@ -1,0 +1,205 @@
+.clearfix {
+	clear : both;
+}
+.fl-right {
+	float : right;
+}
+.text-right {
+	text-align : right;
+}
+iframe, object, embed {
+	max-width:100% !important; 
+}
+#content .vfi {
+	margin-bottom : 20px;
+}
+.mapWrapper {
+  position: relative;
+  padding-bottom:36.25%;
+  padding-top:25px;
+  height:0;
+  overflow:hidden;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom:56.25%;
+  padding-top:25px;
+  height:0;
+  overflow:hidden;
+}
+.mapWrapper div,
+.mapWrapper object,
+.mapWrapper embed,
+.mapWrapper iframe,
+.videoWrapper div,
+.videoWrapper object,
+.videoWrapper embed,
+.videoWrapper iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+}
+img {
+    max-width : 100%!important;
+	height : auto!important;
+}
+#wrapper {
+	width : 100%;
+}
+.container {
+	margin : 0px auto;
+	max-width : 1170px;
+	width : 96%;
+}
+.container-nm {
+	margin : 0px auto;
+	max-width : 1146.6px;
+	width : 94%;
+}
+[class*="col-"] {
+  display: inline;
+  float: left;
+  margin : 0px 1% 20px;
+  min-height : 1px;
+}
+[class*="col-nm-"] {
+  margin : 0px;
+}
+.row {
+	margin : 0px 0px -10px;
+}
+[class*="col-"] .row {
+	margin : 0px -1% -20px;
+	overflow : hidden;
+}
+.right [class*="col-"] {
+  float: right;
+}
+.col-1 {
+	width : 6.3333333%;
+}
+.col-nm-1 {
+	width : 8.3333333%;
+}
+.col-2 {
+	width : 14.6666666%;
+}
+.col-nm-2 {
+	width : 16.6666666%;
+}
+.col-2_4 {
+	width : 18%;
+}
+.col-nm-2_4 {
+	width : 20%;
+}
+.col-3 {
+	width : 23%;
+}
+.col-nm-3 {
+	width : 25%;
+}
+.col-4 {
+	width : 31.3333333%;
+}
+.col-nm-4 {
+	width : 33.3333333%;
+}
+.col-5 {
+	width : 39.6666666%;
+}
+.col-nm-5 {
+	width : 41.6666666%;
+}
+.col-6 {
+	width : 48%;
+}
+.col-nm-6 {
+	width : 50%;
+}
+.col-7 {
+	width : 56.3333333%;
+}
+.col-nm-7 {
+	width : 58.3333333%;
+}
+.col-8 {
+	width : 64.6666666%;
+}
+.col-nm-8 {
+	width : 66.6666666%;
+}
+.col-9 {
+	width : 73%;
+}
+.col-nm-9 {
+	width : 75%;
+}
+.col-10 {
+	width : 81.3333333%;
+}
+.col-nm-10 {
+	width : 83.3333333%;
+}
+.col-11 {
+	width : 89.6666666%;
+}
+.col-nm-11 {
+	width : 91.6666666%;
+}
+.col-12 {
+	width : 98%;
+}
+.col-nm-12 {
+	width : 100%;
+}
+/* for ie7 - ie9 =============================================*/
+.ie7 .row {
+	margin-bottom: 0px;
+}
+.ie7 .container{
+	width : 960px;
+}
+.ie7 .container-nm {
+	width : 940.8px;
+}
+.ie7 [class*="col"] {
+    margin : 0px 0.95% 20px;
+}
+.ie7 [class*="col-nm-"] {
+    margin : 0px;
+}
+@media only screen and (max-width: 1200px) {
+
+.container {
+	max-width : 960px;
+}
+}
+
+@media only screen and (max-width: 959px) {
+
+.container {
+	max-width : 760px;
+}
+}
+@media only screen and (max-width: 767px) {
+
+.container {
+	max-width : 470px;
+}
+[class*="col-"], [class*="col-nm-"] {
+  width : 98%;
+}
+.text-right {
+	text-align : left;
+}
+}	
+
+@media only screen and (max-width: 479px) {
+
+.container {
+	max-width : 240px;
+}
+}
